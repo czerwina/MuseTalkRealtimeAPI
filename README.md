@@ -2,6 +2,11 @@
 
 > **Windows / Python 3.14 changes:** This version adds a long-running HTTP inference service that keeps MuseTalk models loaded and accepts audio uploads, with an optional video upload, at `POST /generate`. It also updates ResNet-18 checkpoint loading and the Windows weight-download script for the legacy checkpoint format. These changes and usage instructions target Windows with Python 3.14; see [Long-running HTTP inference service](#long-running-http-inference-service) below.
 
+Tested config:
+Windows 11, 
+Nvidia 5070Ti (16GB), 
+32GB Memory
+
 <strong>MuseTalk: Real-Time High-Fidelity Video Dubbing via Spatio-Temporal Sampling</strong>
 
 Yue Zhang<sup>\*</sup>,
